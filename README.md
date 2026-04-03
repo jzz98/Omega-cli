@@ -1,22 +1,29 @@
-***Dependencies***
-```
-{
-    "@babel/cli"
-    "@babel/core"
-    "@babel/plugin-proposal-class-properties"
-    "@babel/plugin-proposal-decorators"
-    "@babel/preset-env"
-}
-```
+# Omega CLI Documentation
 
-***Install dependencies***
-```
-npm i --save-dev @babel/cli @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-decorators @babel/plugin-proposal-decorators
+## Overview
+The Omega CLI (Command Line Interface) is designed to provide a powerful way to interact with the Omega framework. This documentation covers installation, basic commands, and advanced usage.
 
-```
-***Server run***
+## Installation
+1. Ensure you have Python 3.6 or higher installed.
+2. Install the Omega CLI via pip:
+   ```bash
+   pip install omega-cli
+   ```
 
-```
-npm run build (from the root of the proyect)
-npm run dev
-```
+## Basic Commands
+- `omega init`: Initialize a new Omega project.
+- `omega start`: Start the Omega server.
+- `omega build`: Build your project for deployment.
+
+## Advanced Usage
+### Configuration
+You can configure the CLI using the `config.yaml` file located in your project directory. This file allows you to set environment variables, project paths, and other options.
+
+### Custom Commands
+You can create custom commands by adding Python scripts to the `/commands` directory in your project.
+
+## Contribution
+If you would like to contribute to the Omega CLI, please fork the repository and submit a pull request with your changes.
+
+## Support
+For support, please open an issue on the GitHub repository or contact the maintainers directly.
